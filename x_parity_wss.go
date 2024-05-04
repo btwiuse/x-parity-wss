@@ -27,7 +27,7 @@ var (
 		Code:       P_WSS_WITH_PATH,
 		VCode:      ma.CodeToVarint(P_WSS_WITH_PATH),
 		Size:       ma.LengthPrefixedVarSize,
-		Path:       true,
+		Path:       false,
 		Transcoder: TranscoderWsPath,
 	}
 )
