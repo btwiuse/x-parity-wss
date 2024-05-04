@@ -19,7 +19,7 @@ var (
 		Code:       P_WS_WITH_PATH,
 		VCode:      ma.CodeToVarint(P_WS_WITH_PATH),
 		Size:       ma.LengthPrefixedVarSize,
-		Path:       true,
+		Path:       false,
 		Transcoder: TranscoderWsPath,
 	}
 	protoWSSX = ma.Protocol{
