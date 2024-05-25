@@ -2,7 +2,7 @@ module github.com/btwiuse/x-parity-wss
 
 go 1.22.2
 
-require github.com/multiformats/go-multiaddr v0.12.3
+require github.com/multiformats/go-multiaddr v0.12.4
 
 require (
 	github.com/ipfs/go-cid v0.0.7 // indirect
